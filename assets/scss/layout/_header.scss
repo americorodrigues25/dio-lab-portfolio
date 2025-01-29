@@ -1,0 +1,30 @@
+html[data-theme='light'] .brand__logo {
+  filter: invert(1);
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  z-index: 2;
+}
+
+.header__toggle {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__brand .brand__logo {
+  width: 3.25rem;
+  height: 3.25rem;
+}
+
+#toggleTheme {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: ease-in-out .4s;
+}
